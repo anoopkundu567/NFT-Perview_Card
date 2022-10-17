@@ -1,0 +1,134 @@
+    body {
+        background-color: hsl(217, 54%, 11%);
+    }
+    /* main card */
+    
+    .card {
+        background-color: hsl(216, 50%, 16%);
+        width: 300px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 7%;
+    }
+    /* div1 */
+    
+    .div-1 {
+        width: 300px;
+        height: 500px;
+    }
+    /* images */
+    
+    .image-1 {
+        width: 270px;
+        height: 250px;
+        padding: 20px 5px 5px 5px;
+        margin-left: 1px;
+        border-radius: 10px;
+    }
+    
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .container:hover .image-1 {
+        opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+        opacity: 1;
+    }
+    
+    .image-3 {
+        padding-bottom: 200px;
+    }
+    
+    .image-2 {
+        width: 30px;
+    }
+    /* tables */
+    
+    .td-2 {
+        padding-left: 75px;
+    }
+    
+    .td-1 {
+        padding-left: 15px;
+    }
+    
+    .td-3 {
+        padding-left: 15px;
+        width: 30px;
+    }
+    
+    h6 {
+        margin: 0;
+        padding-left: 5px;
+        color: hsl(178, 100%, 50%);
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+    }
+    
+    .h6-1 {
+        padding-left: 15px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        color: hsl(215, 51%, 70%);
+    }
+    
+    span {
+        color: hsl(178, 100%, 50%);
+    }
+    
+    .span:hover {
+        color: hsl(178, 100%, 50%);
+    }
+    /* other */
+    
+    h3 {
+        font-size: 20px;
+        margin-left: 15px;
+        padding-top: 7px;
+    }
+    
+    h3:hover {
+        color: hsl(178, 100%, 50%);
+    }
+    
+    p {
+        color: hsl(215, 51%, 70%);
+        margin-left: 15px;
+        padding-top: 7px;
+        line-height: 1.5;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+    }
+    
+    h3 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+    }
+    
+    hr {
+        color: hsl(215, 32%, 27%);
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 30px;
+        padding-bottom: 1px;
+    }
+    
+    @media (max-width: 890px) {
+        .card {
+            margin-top: 13%;
+        }
+    }
